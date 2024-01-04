@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:professional_ecom_app/utils/theme/theme.dart';
+import 'package:professional_ecom_app/app.dart';
+//import 'package:professional_ecom_app/utils/theme/theme.dart';
 
 void main() {
   // Todo: Add Widgets Binding
@@ -12,21 +13,21 @@ void main() {
 
   // Todo: Initialize Authentication
 
-  runApp(const MyApp());
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-      home: null,
-    );
-  }
-}
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       themeMode: ThemeMode.system,
+//       theme: TAppTheme.lightTheme,
+//       darkTheme: TAppTheme.darkTheme,
+//       home: null,
+//     );
+//   }
+// }
