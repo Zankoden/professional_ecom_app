@@ -14,7 +14,7 @@ class TTexts {
   static const String onBoardingTitle3 = "Deliver at your door step";
 
   static const String onBoardingSubTitle1 =
-      "Welcome to Zankodden Store; World of Limitless Choices - Your Perfect Product Awaits!";
+      "Welcome to Zankoden Store; World of Limitless Choices - Your Perfect Product Awaits!";
   static const String onBoardingSubTitle2 =
       "For Seamless Transactions, Choose Your Payment Path - Your Convenience, Our Priority!";
   static const String onBoardingSubTitle3 =
